@@ -8,7 +8,7 @@ public class AccountService {
 		if (accountNumber.equalsIgnoreCase("1001")) {
 			retVal = "1002.32";
 		} else if (accountNumber.equalsIgnoreCase("1002")) {
-			retVal = "34.38";
+			retVal = "34.39";
 		}
 		return "$"+retVal;
 	}
